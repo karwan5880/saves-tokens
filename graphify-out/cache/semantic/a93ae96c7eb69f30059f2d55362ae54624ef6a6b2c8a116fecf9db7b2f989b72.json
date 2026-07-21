@@ -1,0 +1,1 @@
+{"nodes": [{"id": "project_rtk", "label": "RTK: Rust Token Killer terminal compressor", "file_type": "concept", "source_file": "docs/methods/rtk/README.md"}], "edges": [{"source": "project_rtk", "target": "technique_compact_tools", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/methods/rtk/README.md"}], "hyperedges": []}

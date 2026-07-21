@@ -1,0 +1,1 @@
+{"nodes": [{"id": "project_caveman", "label": "Caveman: terse-response skill", "file_type": "concept", "source_file": "docs/methods/caveman/README.md"}], "edges": [{"source": "project_caveman", "target": "pattern_terse_response", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "docs/methods/caveman/README.md"}], "hyperedges": []}

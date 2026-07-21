@@ -1,0 +1,1107 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "playbook_process",
+        "label": "Token-saving playbook sequential process",
+        "nodes": [
+          "technique_fresh_sessions",
+          "technique_task_scoping",
+          "technique_code_maps",
+          "technique_compact_tools",
+          "technique_session_handoff",
+          "technique_output_control",
+          "technique_model_routing"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "docs/playbook.md"
+      },
+      {
+        "id": "cost_reduction_stack",
+        "label": "High-confidence cost-reduction technique stack",
+        "nodes": [
+          "problem_high_cost",
+          "technique_task_scoping",
+          "technique_code_maps",
+          "technique_compact_tools",
+          "technique_session_handoff",
+          "technique_output_control"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "docs/catalog.md"
+      },
+      {
+        "id": "retrieval_and_memory_methods",
+        "label": "Context retrieval and memory preservation methods",
+        "nodes": [
+          "project_graphify",
+          "project_openwolf",
+          "project_contextsniper",
+          "technique_code_maps",
+          "technique_rag",
+          "technique_result_caching"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "docs/catalog.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Saving tokens with coding agents \u2014 research map",
+      "file_type": "document",
+      "source_file": "docs/README.md",
+      "id": "docs_readme",
+      "community": 1,
+      "norm_label": "saving tokens with coding agents \u2014 research map"
+    },
+    {
+      "label": "Catalog: techniques, tools, and caveats",
+      "file_type": "document",
+      "source_file": "docs/catalog.md",
+      "id": "docs_catalog",
+      "community": 1,
+      "norm_label": "catalog: techniques, tools, and caveats"
+    },
+    {
+      "label": "Token-saving playbook",
+      "file_type": "document",
+      "source_file": "docs/playbook.md",
+      "id": "docs_playbook",
+      "community": 0,
+      "norm_label": "token-saving playbook"
+    },
+    {
+      "label": "Token-saving methods library",
+      "file_type": "document",
+      "source_file": "docs/methods/README.md",
+      "id": "docs_methods_readme",
+      "community": 1,
+      "norm_label": "token-saving methods library"
+    },
+    {
+      "label": "Fresh sessions and session lifecycle management",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_fresh_sessions",
+      "community": 0,
+      "norm_label": "fresh sessions and session lifecycle management"
+    },
+    {
+      "label": "Prefix/prompt caching",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_prompt_caching",
+      "community": 2,
+      "norm_label": "prefix/prompt caching"
+    },
+    {
+      "label": "Model choice and routing",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_model_choice",
+      "community": 2,
+      "norm_label": "model choice and routing"
+    },
+    {
+      "label": "Task scoping with goal, paths, tests, constraints",
+      "file_type": "concept",
+      "source_file": "docs/playbook.md",
+      "id": "technique_task_scoping",
+      "community": 0,
+      "norm_label": "task scoping with goal, paths, tests, constraints"
+    },
+    {
+      "label": "Code maps and structural search",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_code_maps",
+      "community": 0,
+      "norm_label": "code maps and structural search"
+    },
+    {
+      "label": "Compact tool and command design",
+      "file_type": "concept",
+      "source_file": "docs/playbook.md",
+      "id": "technique_compact_tools",
+      "community": 3,
+      "norm_label": "compact tool and command design"
+    },
+    {
+      "label": "Session handoff and compaction",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_session_handoff",
+      "community": 0,
+      "norm_label": "session handoff and compaction"
+    },
+    {
+      "label": "Output control and implementation scope",
+      "file_type": "concept",
+      "source_file": "docs/playbook.md",
+      "id": "technique_output_control",
+      "community": 1,
+      "norm_label": "output control and implementation scope"
+    },
+    {
+      "label": "Intentional model and reasoning routing",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_model_routing",
+      "community": 2,
+      "norm_label": "intentional model and reasoning routing"
+    },
+    {
+      "label": "Result caching and deduplication",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_result_caching",
+      "community": 0,
+      "norm_label": "result caching and deduplication"
+    },
+    {
+      "label": "Retrieval-augmented generation",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_rag",
+      "community": 0,
+      "norm_label": "retrieval-augmented generation"
+    },
+    {
+      "label": "Tool schema minimization",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_tool_schema_minimization",
+      "community": 5,
+      "norm_label": "tool schema minimization"
+    },
+    {
+      "label": "Server-side filtering and pagination",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_server_filtering",
+      "community": 9,
+      "norm_label": "server-side filtering and pagination"
+    },
+    {
+      "label": "Hierarchical summaries",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_hierarchical_summaries",
+      "community": 8,
+      "norm_label": "hierarchical summaries"
+    },
+    {
+      "label": "Batching independent retrievals",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_batching",
+      "community": 7,
+      "norm_label": "batching independent retrievals"
+    },
+    {
+      "label": "Adaptive budgets by phase",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_adaptive_budgets",
+      "community": 6,
+      "norm_label": "adaptive budgets by phase"
+    },
+    {
+      "label": "Contextual compression and summarization",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "technique_contextual_compression",
+      "community": 3,
+      "norm_label": "contextual compression and summarization"
+    },
+    {
+      "label": "Claude Code",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "product_claude_code",
+      "community": 2,
+      "norm_label": "claude code"
+    },
+    {
+      "label": "Cursor",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "product_cursor",
+      "community": 1,
+      "norm_label": "cursor"
+    },
+    {
+      "label": "Kimi Code",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "product_kimi_code",
+      "community": 1,
+      "norm_label": "kimi code"
+    },
+    {
+      "label": "Codex",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "product_codex",
+      "community": 1,
+      "norm_label": "codex"
+    },
+    {
+      "label": "Graphify: knowledge graph skill",
+      "file_type": "concept",
+      "source_file": "docs/methods/graphify/README.md",
+      "id": "project_graphify",
+      "community": 0,
+      "norm_label": "graphify: knowledge graph skill"
+    },
+    {
+      "label": "OpenWolf: lifecycle hooks and project memory",
+      "file_type": "concept",
+      "source_file": "docs/methods/openwolf/README.md",
+      "id": "project_openwolf",
+      "community": 0,
+      "norm_label": "openwolf: lifecycle hooks and project memory"
+    },
+    {
+      "label": "ContextSniper: hybrid retrieval and ranking",
+      "file_type": "concept",
+      "source_file": "docs/methods/contextsniper/README.md",
+      "id": "project_contextsniper",
+      "community": 0,
+      "norm_label": "contextsniper: hybrid retrieval and ranking"
+    },
+    {
+      "label": "RTK: Rust Token Killer terminal compressor",
+      "file_type": "concept",
+      "source_file": "docs/methods/rtk/README.md",
+      "id": "project_rtk",
+      "community": 3,
+      "norm_label": "rtk: rust token killer terminal compressor"
+    },
+    {
+      "label": "Headroom: API proxy context compression",
+      "file_type": "concept",
+      "source_file": "docs/methods/headroom/README.md",
+      "id": "project_headroom",
+      "community": 3,
+      "norm_label": "headroom: api proxy context compression"
+    },
+    {
+      "label": "Caveman: terse-response skill",
+      "file_type": "concept",
+      "source_file": "docs/methods/caveman/README.md",
+      "id": "project_caveman",
+      "community": 4,
+      "norm_label": "caveman: terse-response skill"
+    },
+    {
+      "label": "Caveman Code: terse terminal agent",
+      "file_type": "concept",
+      "source_file": "docs/methods/caveman-code/README.md",
+      "id": "project_caveman_code",
+      "community": 4,
+      "norm_label": "caveman code: terse terminal agent"
+    },
+    {
+      "label": "Ponytail: minimal-implementation skill",
+      "file_type": "concept",
+      "source_file": "docs/methods/ponytail/README.md",
+      "id": "project_ponytail",
+      "community": 4,
+      "norm_label": "ponytail: minimal-implementation skill"
+    },
+    {
+      "label": "ccusage: usage measurement and visualization",
+      "file_type": "concept",
+      "source_file": "docs/methods/ccusage/README.md",
+      "id": "project_ccusage",
+      "community": 2,
+      "norm_label": "ccusage: usage measurement and visualization"
+    },
+    {
+      "label": "SWEzze: code-aware context compression",
+      "file_type": "concept",
+      "source_file": "docs/methods/swezze/README.md",
+      "id": "project_swezze",
+      "community": 3,
+      "norm_label": "swezze: code-aware context compression"
+    },
+    {
+      "label": "Token Reduction Is Not Cost Reduction",
+      "file_type": "paper",
+      "source_file": "docs/catalog.md",
+      "id": "research_token_reduction_not_cost",
+      "community": 3,
+      "norm_label": "token reduction is not cost reduction"
+    },
+    {
+      "label": "How Do AI Agents Spend Your Money?",
+      "file_type": "paper",
+      "source_file": "docs/catalog.md",
+      "id": "research_agents_spend_money",
+      "community": 2,
+      "norm_label": "how do ai agents spend your money?"
+    },
+    {
+      "label": "Problem: accumulated context history and stale information",
+      "file_type": "concept",
+      "source_file": "docs/README.md",
+      "id": "problem_context_bloat",
+      "community": 0,
+      "norm_label": "problem: accumulated context history and stale information"
+    },
+    {
+      "label": "Problem: high token usage and provider billing",
+      "file_type": "concept",
+      "source_file": "docs/README.md",
+      "id": "problem_high_cost",
+      "community": 2,
+      "norm_label": "problem: high token usage and provider billing"
+    },
+    {
+      "label": "Problem: context window pressure and capacity limits",
+      "file_type": "concept",
+      "source_file": "docs/README.md",
+      "id": "problem_context_pressure",
+      "community": 5,
+      "norm_label": "problem: context window pressure and capacity limits"
+    },
+    {
+      "label": "Problem: latency and round-trip time",
+      "file_type": "concept",
+      "source_file": "docs/README.md",
+      "id": "problem_latency",
+      "community": 2,
+      "norm_label": "problem: latency and round-trip time"
+    },
+    {
+      "label": "Pattern: surgical file and folder context",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "pattern_surgical_context",
+      "community": 1,
+      "norm_label": "pattern: surgical file and folder context"
+    },
+    {
+      "label": "Pattern: terse response convention",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "pattern_terse_response",
+      "community": 4,
+      "norm_label": "pattern: terse response convention"
+    },
+    {
+      "label": "Pattern: minimal correct patch",
+      "file_type": "concept",
+      "source_file": "docs/methods/minimal-patch/README.md",
+      "id": "pattern_minimal_patch",
+      "community": 4,
+      "norm_label": "pattern: minimal correct patch"
+    },
+    {
+      "label": "Built-in product controls",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_builtin_controls",
+      "community": 1,
+      "norm_label": "built-in product controls"
+    },
+    {
+      "label": "Human workflow and prompt patterns",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_workflow_patterns",
+      "community": 1,
+      "norm_label": "human workflow and prompt patterns"
+    },
+    {
+      "label": "Context maps, retrieval, and memory",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_context_retrieval",
+      "community": 0,
+      "norm_label": "context maps, retrieval, and memory"
+    },
+    {
+      "label": "Compressing payloads: terminal, tool, web, MCP",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_payload_compression",
+      "community": 3,
+      "norm_label": "compressing payloads: terminal, tool, web, mcp"
+    },
+    {
+      "label": "API and application-level architecture",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_api_architecture",
+      "community": 2,
+      "norm_label": "api and application-level architecture"
+    },
+    {
+      "label": "Terse-agent and minimal-code skills",
+      "file_type": "concept",
+      "source_file": "docs/catalog.md",
+      "id": "category_terse_skills",
+      "community": 4,
+      "norm_label": "terse-agent and minimal-code skills"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/README.md",
+      "source_location": "\"use [the catalog](catalog.md)\"",
+      "source": "docs_readme",
+      "target": "docs_catalog"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/README.md",
+      "source_location": "\"see the [methods library](methods/README.md)\"",
+      "source": "docs_readme",
+      "target": "docs_methods_readme"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/README.md",
+      "source_location": "\"Start with [the playbook](playbook.md)\"",
+      "source": "docs_readme",
+      "target": "docs_playbook"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_api_architecture"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_builtin_controls"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_context_retrieval"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_payload_compression"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_terse_skills"
+    },
+    {
+      "relation": "organizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "docs_catalog",
+      "target": "category_workflow_patterns"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_code_maps"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_compact_tools"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_fresh_sessions"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_model_routing"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_output_control"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_session_handoff"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "docs_playbook",
+      "target": "technique_task_scoping"
+    },
+    {
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "product_claude_code",
+      "target": "technique_fresh_sessions"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_fresh_sessions",
+      "target": "problem_context_bloat"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/catalog.md",
+      "source": "technique_session_handoff",
+      "target": "technique_fresh_sessions"
+    },
+    {
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "product_claude_code",
+      "target": "technique_prompt_caching"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_prompt_caching",
+      "target": "category_api_architecture"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_prompt_caching",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_prompt_caching",
+      "target": "problem_latency"
+    },
+    {
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "product_claude_code",
+      "target": "technique_model_choice"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_model_choice",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/playbook.md",
+      "source": "technique_task_scoping",
+      "target": "pattern_surgical_context"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "technique_task_scoping",
+      "target": "problem_context_bloat"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/graphify/README.md",
+      "source": "project_graphify",
+      "target": "technique_code_maps"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_code_maps",
+      "target": "category_context_retrieval"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_code_maps",
+      "target": "problem_context_bloat"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/rtk/README.md",
+      "source": "project_rtk",
+      "target": "technique_compact_tools"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_compact_tools",
+      "target": "category_payload_compression"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "technique_compact_tools",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/openwolf/README.md",
+      "source": "project_openwolf",
+      "target": "technique_session_handoff"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_session_handoff",
+      "target": "problem_context_bloat"
+    },
+    {
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "product_kimi_code",
+      "target": "technique_output_control"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md",
+      "source": "technique_output_control",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_model_routing",
+      "target": "category_api_architecture"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_model_routing",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/methods/openwolf/README.md",
+      "source": "project_openwolf",
+      "target": "technique_result_caching"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_result_caching",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/contextsniper/README.md",
+      "source": "project_contextsniper",
+      "target": "technique_rag"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/methods/graphify/README.md",
+      "source": "project_graphify",
+      "target": "technique_rag"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_rag",
+      "target": "category_api_architecture"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_rag",
+      "target": "problem_context_bloat"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_tool_schema_minimization",
+      "target": "problem_context_pressure"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/methods/contextsniper/README.md",
+      "source": "project_contextsniper",
+      "target": "technique_contextual_compression"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/headroom/README.md",
+      "source": "project_headroom",
+      "target": "technique_contextual_compression"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/swezze/README.md",
+      "source": "project_swezze",
+      "target": "technique_contextual_compression"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "research_token_reduction_not_cost",
+      "target": "technique_contextual_compression"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "technique_contextual_compression",
+      "target": "category_api_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "category_builtin_controls",
+      "target": "product_claude_code"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "category_builtin_controls",
+      "target": "product_cursor"
+    },
+    {
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "product_cursor",
+      "target": "pattern_surgical_context"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "category_builtin_controls",
+      "target": "product_kimi_code"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "category_builtin_controls",
+      "target": "product_codex"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_graphify",
+      "target": "category_context_retrieval"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_openwolf",
+      "target": "category_context_retrieval"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_contextsniper",
+      "target": "category_context_retrieval"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_rtk",
+      "target": "category_payload_compression"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_headroom",
+      "target": "category_payload_compression"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_caveman",
+      "target": "category_terse_skills"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/caveman/README.md",
+      "source": "project_caveman",
+      "target": "pattern_terse_response"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_caveman_code",
+      "target": "category_terse_skills"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/caveman-code/README.md",
+      "source": "project_caveman_code",
+      "target": "pattern_terse_response"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "project_ponytail",
+      "target": "category_terse_skills"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/ponytail/README.md",
+      "source": "project_ponytail",
+      "target": "pattern_minimal_patch"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/ccusage/README.md",
+      "source": "project_ccusage",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "analyzes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "research_agents_spend_money",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/methods/minimal-patch/README.md",
+      "source": "pattern_minimal_patch",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "pattern_terse_response",
+      "target": "problem_high_cost"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "pattern_surgical_context",
+      "target": "category_workflow_patterns"
+    },
+    {
+      "relation": "belongs_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/catalog.md",
+      "source": "pattern_terse_response",
+      "target": "category_workflow_patterns"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/playbook.md",
+      "source": "pattern_terse_response",
+      "target": "pattern_minimal_patch"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "playbook_process",
+      "label": "Token-saving playbook sequential process",
+      "nodes": [
+        "technique_fresh_sessions",
+        "technique_task_scoping",
+        "technique_code_maps",
+        "technique_compact_tools",
+        "technique_session_handoff",
+        "technique_output_control",
+        "technique_model_routing"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/playbook.md"
+    },
+    {
+      "id": "cost_reduction_stack",
+      "label": "High-confidence cost-reduction technique stack",
+      "nodes": [
+        "problem_high_cost",
+        "technique_task_scoping",
+        "technique_code_maps",
+        "technique_compact_tools",
+        "technique_session_handoff",
+        "technique_output_control"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "docs/catalog.md"
+    },
+    {
+      "id": "retrieval_and_memory_methods",
+      "label": "Context retrieval and memory preservation methods",
+      "nodes": [
+        "project_graphify",
+        "project_openwolf",
+        "project_contextsniper",
+        "technique_code_maps",
+        "technique_rag",
+        "technique_result_caching"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/catalog.md"
+    }
+  ]
+}

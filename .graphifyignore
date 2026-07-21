@@ -1,0 +1,22 @@
+# Graphify corpus exclusions (gitignore syntax; merges .gitignore, wins on conflict)
+
+# Basename-underscore drafts/partials
+_*
+**/_*
+
+# Logs
+*.log
+
+# Build / tooling junk
+node_modules/
+__pycache__/
+.expo/
+dist/
+build/
+graphify-out/
+
+# Unreal Engine
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/

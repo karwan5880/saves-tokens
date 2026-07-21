@@ -1,0 +1,217 @@
+{
+  "communities": {
+    "0": [
+      "category_context_retrieval",
+      "docs_playbook",
+      "problem_context_bloat",
+      "project_contextsniper",
+      "project_graphify",
+      "project_openwolf",
+      "technique_code_maps",
+      "technique_fresh_sessions",
+      "technique_rag",
+      "technique_result_caching",
+      "technique_session_handoff",
+      "technique_task_scoping"
+    ],
+    "1": [
+      "category_builtin_controls",
+      "category_workflow_patterns",
+      "docs_catalog",
+      "docs_methods_readme",
+      "docs_readme",
+      "pattern_surgical_context",
+      "product_codex",
+      "product_cursor",
+      "product_kimi_code",
+      "technique_output_control"
+    ],
+    "2": [
+      "category_api_architecture",
+      "problem_high_cost",
+      "problem_latency",
+      "product_claude_code",
+      "project_ccusage",
+      "research_agents_spend_money",
+      "technique_model_choice",
+      "technique_model_routing",
+      "technique_prompt_caching"
+    ],
+    "3": [
+      "category_payload_compression",
+      "project_headroom",
+      "project_rtk",
+      "project_swezze",
+      "research_token_reduction_not_cost",
+      "technique_compact_tools",
+      "technique_contextual_compression"
+    ],
+    "4": [
+      "category_terse_skills",
+      "pattern_minimal_patch",
+      "pattern_terse_response",
+      "project_caveman",
+      "project_caveman_code",
+      "project_ponytail"
+    ],
+    "5": [
+      "problem_context_pressure",
+      "technique_tool_schema_minimization"
+    ],
+    "6": [
+      "technique_adaptive_budgets"
+    ],
+    "7": [
+      "technique_batching"
+    ],
+    "8": [
+      "technique_hierarchical_summaries"
+    ],
+    "9": [
+      "technique_server_filtering"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2878787878787879,
+    "1": 0.2222222222222222,
+    "2": 0.2777777777777778,
+    "3": 0.3333333333333333,
+    "4": 0.4666666666666667,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0
+  },
+  "gods": [
+    {
+      "id": "problem_high_cost",
+      "label": "Problem: high token usage and provider billing",
+      "degree": 10
+    },
+    {
+      "id": "docs_playbook",
+      "label": "Token-saving playbook",
+      "degree": 8
+    },
+    {
+      "id": "docs_catalog",
+      "label": "Catalog: techniques, tools, and caveats",
+      "degree": 7
+    },
+    {
+      "id": "technique_contextual_compression",
+      "label": "Contextual compression and summarization",
+      "degree": 5
+    },
+    {
+      "id": "problem_context_bloat",
+      "label": "Problem: accumulated context history and stale information",
+      "degree": 5
+    },
+    {
+      "id": "pattern_terse_response",
+      "label": "Pattern: terse response convention",
+      "degree": 5
+    },
+    {
+      "id": "category_builtin_controls",
+      "label": "Built-in product controls",
+      "degree": 5
+    },
+    {
+      "id": "category_context_retrieval",
+      "label": "Context maps, retrieval, and memory",
+      "degree": 5
+    },
+    {
+      "id": "category_api_architecture",
+      "label": "API and application-level architecture",
+      "degree": 5
+    },
+    {
+      "id": "technique_fresh_sessions",
+      "label": "Fresh sessions and session lifecycle management",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Task scoping with goal, paths, tests, constraints",
+      "target": "Pattern: surgical file and folder context",
+      "source_files": [
+        "docs/playbook.md",
+        "docs/catalog.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "Result caching and deduplication",
+      "target": "Problem: high token usage and provider billing",
+      "source_files": [
+        "docs/catalog.md",
+        "docs/README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "addresses",
+      "why": "bridges separate communities; peripheral node `Result caching and deduplication` unexpectedly reaches hub `Problem: high token usage and provider billing`"
+    },
+    {
+      "source": "ContextSniper: hybrid retrieval and ranking",
+      "target": "Contextual compression and summarization",
+      "source_files": [
+        "docs/methods/contextsniper/README.md",
+        "docs/catalog.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "Saving tokens with coding agents — research map",
+      "target": "Token-saving playbook",
+      "source_files": [
+        "docs/README.md",
+        "docs/playbook.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "Token-saving playbook",
+      "target": "Intentional model and reasoning routing",
+      "source_files": [
+        "docs/playbook.md",
+        "docs/catalog.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "cites",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Catalog: techniques, tools, and caveats` connect `Token Optimization Techniques` to `Context and Session Management`, `Model Selection and Performance`, `Context Compression Methods`, `Terse Response Design`?",
+      "why": "High betweenness centrality (0.211) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Problem: high token usage and provider billing` connect `Model Selection and Performance` to `Context and Session Management`, `Token Optimization Techniques`, `Context Compression Methods`, `Terse Response Design`?",
+      "why": "High betweenness centrality (0.201) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `API and application-level architecture` connect `Model Selection and Performance` to `Context and Session Management`, `Token Optimization Techniques`, `Context Compression Methods`?",
+      "why": "High betweenness centrality (0.131) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Token-saving methods library`, `Tool schema minimization`, `Server-side filtering and pagination` to the rest of the system?",
+      "why": "13 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

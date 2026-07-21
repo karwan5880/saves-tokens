@@ -4,6 +4,8 @@ Each directory is an independently usable research note. Named projects are kept
 
 Start with [../playbook.md](../playbook.md) for the recommended order of adoption and [../catalog.md](../catalog.md) for the comparison matrix. Measure total cost per successful task before and after any change.
 
+Use [the session-handoff template](../templates/session-handoff.md) before clearing or compacting an unrelated session.
+
 ## Navigation
 
 - Products: [Claude Code](claude-code/README.md), [Codex](codex/README.md), [Cursor](cursor/README.md), [Kimi Code](kimi-code/README.md)

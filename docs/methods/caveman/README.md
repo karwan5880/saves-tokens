@@ -8,7 +8,7 @@ The skill directs Claude Code to use terse, telegraphic answers and remove conve
 
 ## Evidence and cautions
 
-The project claims roughly 65% reduction. That is chiefly output text, not file/tool input or hidden reasoning. A paired SkillsBench study measured 8.5% lower modeled cost on real agentic tasks, illustrating why output compression percentages should not be treated as total savings. Preserve concise but explicit tests, risks, and decisions.
+The project claims roughly 65% reduction. That is chiefly output text, not file/tool input or hidden reasoning. A paired SkillsBench study measured 8.5% lower modeled cost on real agentic tasks, illustrating why output compression percentages should not be treated as total savings. Preserve concise risks and decisions.
 
 ## Sources
 

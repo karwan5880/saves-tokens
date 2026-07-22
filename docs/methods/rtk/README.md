@@ -8,7 +8,7 @@ RTK intercepts selected shell commands and returns a compact representation to t
 
 ## Evidence and cautions
 
-The project advertises 60–90% compression for supported output, not necessarily full-task savings. A paired SkillsBench test found real payload compression but +7.6% modeled cost at low reasoning and roughly neutral results at high reasoning. Full raw output remains essential for failed tests, migrations, security scans, and exact patch diagnostics.
+The project advertises 60–90% compression for supported output, not necessarily full-task savings. A paired SkillsBench evaluation found real payload compression but +7.6% modeled cost at low reasoning and roughly neutral results at high reasoning. Full raw output remains essential for failures, migrations, security scans, and exact patch diagnostics.
 
 ## Sources
 

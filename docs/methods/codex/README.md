@@ -2,7 +2,7 @@
 
 ## Method
 
-Give a compact, testable task with target paths and non-goals. Keep project instructions concise, avoid large pasted context, and begin a fresh task/thread when the existing discussion is unrelated. Use the current product’s usage view and API billing where applicable.
+Give a compact task with target paths and non-goals. Keep project instructions concise, avoid large pasted context, and begin a fresh task/thread when the existing discussion is unrelated. Use the current product’s usage view and API billing where applicable.
 
 ## Note
 

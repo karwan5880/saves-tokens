@@ -6,7 +6,7 @@ Kimi Code offers `/usage`, `/clear`, and `/compact`. Its configuration documents
 
 ## Practical policy
 
-Use `/clear` for unrelated work, compact with a factual handoff, and set output caps only for bounded outputs such as classification or summaries. Retaining reasoning can aid continuation but increases carried context; test it against the task type.
+Use `/clear` for unrelated work, compact with a factual handoff, and set output caps only for bounded outputs such as classification or summaries. Retaining reasoning can aid continuation but increases carried context; measure it by task type.
 
 ## Sources
 

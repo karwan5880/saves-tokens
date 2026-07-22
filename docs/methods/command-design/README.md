@@ -2,7 +2,7 @@
 
 ## Method
 
-Ask tools for evidence and decisions, not raw noise: targeted `rg`, line ranges, one focused test, `git diff --stat` before full diffs, no ANSI/progress, and bounded logs.
+Ask tools for evidence and decisions, not raw noise: targeted `rg`, line ranges, `git diff --stat` before full diffs, no ANSI/progress, and bounded logs.
 
 ## Preserve
 

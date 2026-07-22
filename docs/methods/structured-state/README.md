@@ -2,7 +2,7 @@
 
 ## Method
 
-Store the task plan, decisions, changed paths, test status, open questions, and next action in compact Markdown or JSON rather than replaying a transcript. Reinject only the fields needed for the next phase.
+Store the task plan, decisions, changed paths, open questions, and next action in compact Markdown or JSON rather than replaying a transcript. Reinject only the fields needed for the next phase.
 
 ## Caution
 

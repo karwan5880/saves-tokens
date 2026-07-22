@@ -2,7 +2,7 @@
 
 ## Method
 
-Run matched tasks on the same repository revision, prompt, model, reasoning setting, permissions, environment and test command. Repeat/randomize runs. Record billed input, cached input, output, reasoning where available, latency, tool calls, task pass rate, and cost per successful task.
+Run matched tasks on the same repository revision, prompt, model, reasoning setting, permissions, and environment. Repeat/randomize runs. Record billed input, cached input, output, reasoning where available, latency, tool calls, task outcome, and cost per successful task.
 
 ## Why
 

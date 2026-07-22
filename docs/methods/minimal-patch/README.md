@@ -6,4 +6,4 @@ Reuse existing patterns and implement only what acceptance criteria require. Avo
 
 ## Caution
 
-“Minimal” never means omitting required tests, validation, security, accessibility, migrations, error handling, or compatibility. Ponytail is a skill built around this style.
+“Minimal” never means omitting required validation, security, accessibility, migrations, error handling, or compatibility. Ponytail is a skill built around this style.

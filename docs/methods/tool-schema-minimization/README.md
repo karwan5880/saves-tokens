@@ -6,4 +6,4 @@ Load only the MCP/tools needed for the current task and keep their descriptions/
 
 ## Trade-off
 
-Too many schemas consume every turn’s context. Too little detail yields wrong tool calls and retries. Test both token use and tool-call success rate.
+Too many schemas consume every turn’s context. Too little detail yields wrong tool calls and retries. Measure token use and tool-call success rate.

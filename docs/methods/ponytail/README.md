@@ -8,7 +8,7 @@ It encourages the agent to identify unnecessary scope and produce the smallest s
 
 ## Cautions
 
-This is an indirect token saver: it is valuable only when it preserves the requested behavior and required validation. It must not justify dropping security checks, accessibility, migrations, compatibility, tests, or explicit acceptance criteria.
+This is an indirect token saver: it is valuable only when it preserves the requested behavior and required validation. It must not justify dropping security checks, accessibility, migrations, compatibility, or explicit acceptance criteria.
 
 ## Source
 
